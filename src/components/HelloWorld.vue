@@ -78,7 +78,7 @@
         >
       </li>
       <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
+        <a href="https://vue-loader.vuejs.org" target="_blank" rev="noopener"
           >vue-loader</a
         >
       </li>
@@ -95,13 +95,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
-    msg: String,
-  },
+    msg: String
+  }
 });
 </script>
 
